@@ -1,1 +1,7 @@
-# fraud-detection
+# Fraud Detection
+## This project focuses on developing and evaluating machine learning models for credit card fraud detection, with a comparative analysis between the Random Forest and XGBoost classification algorithms. The objective is to identify the most effective model for accurately detecting fraudulent transactions while minimizing false positives, thereby improving the reliability and efficiency of fraud prevention systems in financial institutions.
+
+## Insights Summary
+#### Both Random Forest and XGBoost models were trained and optimized through hyperparameter tuning to enhance detection accuracy and computational efficiency. Results indicated that while both algorithms performed robustly, XGBoost consistently achieved higher precision, recall and AUC, demonstrating superior capability in identifying fraudulent transactions with fewer false negatives. XGBoost also exhibited faster much faster training and prediction time as compared to Random Forest, making it more suitable for scenarios requiring quick deployment.
+
+#### In conclusion, XGBoost outperformed Random Forest in overall fraud detection effectiveness, particularly in scenarios where minimizing missed fraud cases is critical. The findings suggest that XGBoost’s gradient boosting approach and ability to handle complex data interactions make it a more powerful tool for modern fraud detection systems. Future enhancements include integrating real-time detection pipelines, model retraining on new data, and exploring ensemble methods to combine the strengths of both models.
