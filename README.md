@@ -8,4 +8,5 @@
 
 #### In contrast, Random Forest underperformed across all key metrics, showing lower recall and longer prediction times, making it less suitable for real-time fraud detection scenarios.
 
+## Conclusion
 #### In summary, while both CatBoost and XGBoost performed strongly, CatBoost was the top performer in detection accuracy and prediction efficiency, whereas XGBoost remains the more practical choice for faster model updates. The results highlight that CatBoost may be preferred for accuracy-critical applications, while XGBoost may suit time-sensitive or resource-constrained systems. Future enhancements include integrating real-time detection pipelines, model retraining on new data, and exploring ensemble methods to combine the strengths of both models.
